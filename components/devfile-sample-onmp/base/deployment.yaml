@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-onmp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkwch-fix-0075-0061-tenant/tkwch-fix-0075-0061-app/devfile-sample-onmp@sha256:ecc6837cea411de8a6cd04b385e2eee14f981fff51cd8842e5203abf7b3701c6
         name: my-nodejs
         ports:
         - containerPort: 3001
